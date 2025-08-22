@@ -14,10 +14,10 @@ pipeline {
         stage("Deploy"){
             steps{
                 sh"""
-                
-                 docker stop reactjs-cont || true 
+                docker stop reactjs-cont || true 
                 docker rm reactjs-cont || true 
-                
+
+
                 docker run -dp 3000:80 \
                     --name reactjs-cont \
                     jenkins-react-pipeline
@@ -25,7 +25,6 @@ pipeline {
 
             }
         }
-    
         stage("Add Domain name "){
             steps{
                 sh """
@@ -34,6 +33,5 @@ pipeline {
                 """
             }
         }
-        
     }
 }

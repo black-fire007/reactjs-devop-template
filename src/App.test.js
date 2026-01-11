@@ -3,11 +3,11 @@ import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 
-// test('renders learn react link', () => {
-//   render(<HomePage />);
-//   const linkElement = screen.getByText(/love helping you/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+test('renders learn react link', () => {
+  render(<HomePage />);
+  const linkElement = screen.getByText(/love helping you/i);
+  expect(linkElement).toBeInTheDocument();
+});
 
 describe('Routing Test About Us', () => {
   test('should navigate to the login page ', () => {

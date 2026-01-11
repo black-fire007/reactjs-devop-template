@@ -27,7 +27,7 @@ const AboutUs = () => {
 
                 </div>
                 <div className="text-side text-left ms-md-4  ">
-                    <h1 className=""> About Us</h1>
+                    <h1 className=""> About Our Team</h1>
                     <p>
                         We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.We understand that sometimes it might hard to constribute to the society in various act. That's why we are here.  \n We make it easy for everyone to plant trees and save the earth for future generation. We want to make the world full of free and embalance with nature.
                     </p>

@@ -21,9 +21,9 @@ function App() {
 
   // we should check whether the token is valid or not 
   // check if the access_token is valid or not 
-  // const [isValidated, setIsValidated] = useState(
-  //   localStorage.getItem("tokens") ? true : false
-  // )
+  const [isValidated, setIsValidated] = useState(
+    localStorage.getItem("tokens") ? true : false
+  )
    
   
   const handleLoginCallBack = (value) => {
